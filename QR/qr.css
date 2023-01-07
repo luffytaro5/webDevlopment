@@ -1,0 +1,84 @@
+img {
+    /* margin: auto; */
+    width: 30%;
+    left: 127%;
+    top: -45px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 5px 5px 50px rgb(213, 234, 241);
+    display: flex;
+}
+
+/* Shape snippets taken from: https://css-tricks.com/the-shapes-of-css/ */
+
+body {
+    align-items: center;
+    background: #f99991;
+    display: flex;
+    height: 100vh;
+    /* justify-content: center; */
+    margin: auto;
+}
+
+.grid {
+    background: #efefef;
+    border-radius: 40px;
+    -webkit-box-shadow: 10px 10px 26px -6px rgba(168, 100, 96, 0.6);
+    -moz-box-shadow: 10px 10px 26px -6px rgba(168, 100, 96, 0.6);
+    box-shadow: 10px 10px 26px -6px rgba(168, 100, 96, 0.6);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    margin: auto 0;
+    overflow: hidden;
+}
+
+.tr-up {
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid red;
+    height: 0;
+    width: 0;
+}
+
+.tr-down {
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red;
+    height: 0;
+    width: 0;
+}
+
+.silver-up {
+    border-top-color: #c5bcbd;
+}
+
+.gold-down {
+    border-bottom-color: #e8c363;
+}
+
+
+.text {
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    border-width: thick;
+    width: 20%;
+    left: -400px;
+    top: 150px;
+    position: relative;
+    background: aliceblue;
+    color: goldenrod;
+    font-family: serif;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 5px 5px 50px rgb(225, 234, 237);
+}
+
+.border {
+    border: 2px solid black;
+    /* box-shadow: 5px 5px 50px #7fd546f2; */
+    border-radius: 40px;
+    border-right-style: unset;
+}
